@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox-Practice</title>
+    <style>
+      .container {
+        border-width: 1px;
+        border-color: grey;
+        border-style: solid;
+        width: 350px;
+        display: grid;
+        row-gap: 10px;
+      }
+      .box {
+        display: flex;
+        margin-bottom: 10px;
+      }
+      .pfp {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+      }
+      .row1 {
+        display: flex;
+        justify-content: space-between;
+      }
+      .pfp-logo {
+        margin-left: 10px;
+        margin-right: 5px;
+      }
+      .name,
+      .row2 {
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .time,
+      .inbox,
+      .text {
+        color: grey;
+      }
+      .inbox {
+        font-weight: bold;
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inbox">ALL INBOXES</div>
+      <div class="box">
+        <div class="pfp-logo">
+          <img src="pfp-logo/pfp logo 2.jpg" alt="pfp 2" class="pfp" />
+        </div>
+        <div class="info">
+          <div class="row1">
+            <div class="name">Chewy Promotions</div>
+            <div class="time">4:58 PM</div>
+          </div>
+          <div class="row2">Biggest sales of the year!</div>
+          <div class="text">Hey there! We're trying to tell you about our...</div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="pfp-logo">
+          <img src="pfp-logo/pfp logo 2.jpg" alt="pfp 2" class="pfp" />
+        </div>
+        <div class="info">
+          <div class="row1">
+            <div class="name">Chewy Promotions</div>
+            <div class="time">4:58 PM</div>
+          </div>
+          <div class="row2">Biggest sales of the year!</div>
+          <div class="text">Hey there! We're trying to tell you about our...</div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="pfp-logo">
+          <img src="pfp-logo/pfp logo 2.jpg" alt="pfp 2" class="pfp" />
+        </div>
+        <div class="info">
+          <div class="row1">
+            <div class="name">Chewy Promotions</div>
+            <div class="time">4:58 PM</div>
+          </div>
+          <div class="row2">Biggest sales of the year!</div>
+          <div class="text">Hey there! We're trying to tell you about our...</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

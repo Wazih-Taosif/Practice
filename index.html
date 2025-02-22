@@ -15,6 +15,7 @@
         margin-right: 10px;
         margin-left: 0px;
         padding: 0px;
+        transition: opacity 0.15s;
       }
       .buy_now {
         height: 36px;
@@ -23,19 +24,33 @@
         border: none;
         border-radius: 18px;
         font-weight: bold;
-      }
-      .amz:hover {
-        opacity: 0.8;
-      }
-      .amz:active {
-        opacity: 0.3;
+        transition: background-color 0.5s, color 0.5s;
       }
       .buy_now:hover {
         background-color: black;
         color: rgb(226, 180, 93);
       }
       .buy_now:active {
-        opacity: 0.1;
+        opacity: 0.4;
+      }
+      .amz:hover {
+        opacity: 0.8;
+      }
+      .amz:active {
+        opacity: 0.4;
+      }
+      .click {
+        background-color: tomato;
+        color: cyan;
+        border: none;
+        height: 36px;
+        width: 150px;
+        border-radius: 18px;
+        font-weight: bold;
+        transition: box-shadow 0.15s;
+      }
+      .click:hover {
+        box-shadow: 0 3px 10px tomato;
       }
     </style>
   </head>
@@ -46,5 +61,15 @@
     <p>Free delivery tomorrow.</p>
     <button class="amz">Add to Cart</button>
     <button class="buy_now">Buy now</button>
+    <button class="click">Click Me</button>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur
+      <strong>adipisicing elit.</strong> Sapiente dolorem ducimus suscipit! Esse
+      provident magni soluta, recusandae
+      <u>natus ipsam debitis iste reiciendis alias? </u>Ex quidem deleniti
+      commodi dolorum hic sunt.
+    </p>
+    <input type="text" placeholder="Search" />
   </body>
 </html>

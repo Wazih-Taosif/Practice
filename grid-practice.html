@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Practice</title>
+    <style>
+      body {
+        padding-bottom: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: grid; grid-template-columns: 100px 100px">
+      <div style="background-color: cyan">100px</div>
+      <div style="background-color: pink">div 2</div>
+    </div>
+
+    <div
+      style="
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 100px 100px 200px;
+      "
+    >
+      <div style="background-color: cyan">100px</div>
+      <div style="background-color: pink">100px</div>
+      <div style="background-color: cyan">200px</div>
+      <div style="background-color: pink">any</div>
+      <div style="background-color: cyan">any</div>
+      <div style="background-color: pink">any</div>
+      <div style="background-color: cyan">any</div>
+    </div>
+
+    <div
+      style="
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 100px 1fr 1fr;
+      "
+    >
+      <div style="background-color: cyan">100px</div>
+      <div style="background-color: pink">1fr</div>
+      <div style="background-color: cyan">1fr</div>
+    </div>
+
+    <div
+      style="
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 15px;
+        row-gap: 30px;
+      "
+    >
+      <div style="background-color: cyan; height: 200px">1fr</div>
+      <div style="background-color: pink; height: 200px">1fr</div>
+      <div style="background-color: cyan; height: 200px">1fr</div>
+      <div style="background-color: pink; height: 200px">1fr</div>
+      <div style="background-color: cyan; height: 200px">1fr</div>
+      <div style="background-color: pink; height: 200px">1fr</div>
+    </div>
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 100px 100px 100px 100px;
+        column-gap: 10px;
+        row-gap: 10px;
+        margin-top: 10px;
+        text-align: center;
+      "
+    >
+      <div style="background-color: cyan">1</div>
+      <div style="background-color: cyan">2</div>
+      <div style="background-color: cyan">3</div>
+      <div style="background-color: cyan">4</div>
+      <div style="background-color: cyan">5</div>
+      <div style="background-color: cyan">6</div>
+      <div style="background-color: cyan">7</div>
+      <div style="background-color: cyan">8</div>
+    </div>
+  </body>
+</html>

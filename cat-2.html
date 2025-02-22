@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>practice-2</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .container {
+        display: inline-block;
+        margin-right: 10px;
+        width: 150px;
+        border-style: solid;
+      }
+      .image-2 {
+        object-position: right;
+      }
+      .image {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+      }
+      .pfp {
+        width: 25px;
+        border-radius: 50px;
+      }
+      .column-pfp {
+        width: 25px;
+      }
+      .frnds {
+        margin-top: 3px;
+      }
+      .btn {
+        background-color: rgb(130, 158, 236);
+        border: none;
+        padding: 8px;
+        border-radius: 3px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .row-2,
+      .row-3 {
+        margin-left: 5px;
+      }
+      .name {
+        font-weight: bold;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: 156px 156px 156px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="container">
+        <div class="row-1">
+          <img src="images/thumbnail-1.webp" alt="image-1" class="image" />
+        </div>
+        <div class="row-2">
+          <p class="name">Oliver</p>
+          <div>
+            <div class="column-pfp">
+              <img src="pfp-logo/pfp logo 1.jpeg" alt="pfp 1" class="pfp" />
+            </div>
+            <div class="column-friends">
+              <p class="frnds">2 mutual friends</p>
+            </div>
+          </div>
+        </div>
+        <div class="row-3">
+          <button class="btn">Add Friend</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row-1">
+          <img
+            src="images/thumbnail 2.avif"
+            alt="image 2"
+            class="image image-2"
+          />
+        </div>
+        <div class="row-2">
+          <p class="name">Mimi</p>
+          <div>
+            <div class="column-pfp">
+              <img src="pfp-logo/pfp logo 2.jpg" alt="pfp 2" class="pfp" />
+            </div>
+            <div class="column-friends">
+              <p class="frnds">5 mutual friends</p>
+            </div>
+          </div>
+        </div>
+        <div class="row-3">
+          <button class="btn">Add Friend</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row-1">
+          <img src="images/thumbnail 3.avif" alt="image 3" class="image" />
+        </div>
+        <div class="row-2">
+          <p class="name">Gohar</p>
+          <div>
+            <div class="column-pfp">
+              <img src="pfp-logo/pfp logo 3.jpeg" alt="pfp 3" class="pfp" />
+            </div>
+            <div class="column-friends">
+              <p class="frnds">1 mutual friends</p>
+            </div>
+          </div>
+        </div>
+        <div class="row-3">
+          <button class="btn">Add Friend</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

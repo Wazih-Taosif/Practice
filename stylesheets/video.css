@@ -1,0 +1,42 @@
+body {
+  padding-bottom: 2000px;
+}
+a {
+  display: block;
+}
+.thumbnail {
+  width: 100%;
+}
+.video-title {
+  font-size: medium;
+  font-weight: 500;
+  margin-top: 0px;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+.channel-name {
+  margin-bottom: 5px;
+}
+.channel-name,
+.info-text {
+  color: rgb(96, 96, 96);
+  font-size: small;
+}
+
+.pfp {
+  width: 40px;
+  border-radius: 50px;
+}
+.first-vertical-div {
+  margin-bottom: 10px;
+}
+.second-vertical-div {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 42px;
+}
